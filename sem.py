@@ -14,12 +14,7 @@ for i in list:
     if diff < close_diff:
         close_diff = diff
         closest_element = i
-        print(closest_element)
     if i == number:
-      count+=1
-      print(count)
-
-
- 
-
-
+        count+=1
+print(count)
+print(closest_element)
